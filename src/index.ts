@@ -1,6 +1,4 @@
-import pkg from "express";
-const express = pkg;
-import type { Request, Response } from "express";
+import express, { Request, Response } from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 
